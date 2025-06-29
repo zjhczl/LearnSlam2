@@ -1,0 +1,15 @@
+# environment.yml
+name: slam_book2
+channels:
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro/
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r/
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  # - conda-forge  # 优先使用conda-forge源（GDAL相关包更全）
+  - defaults
+dependencies:
+  - python=3.12   # 固定Python版本
+  - numpy
+  - scipy
+  - pandas
